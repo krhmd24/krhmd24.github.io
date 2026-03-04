@@ -175,3 +175,14 @@ body {
   font-size: 14px;
   color: #ddd;
 }
+
+@media (max-width: 900px) {
+
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+}
